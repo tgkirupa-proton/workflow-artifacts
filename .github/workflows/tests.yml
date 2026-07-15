@@ -1,15 +1,15 @@
 name: Tests
 
 on:
-push:
+  push:
     branches:
-    - main
-pull_request:
+      - main
+  pull_request:
     branches:
-    - main
+      - main
 
 permissions:
-contents: read
+  contents: read
 
 jobs:
   coverage:
